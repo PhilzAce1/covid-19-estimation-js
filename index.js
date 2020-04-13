@@ -26,7 +26,7 @@ app.use(bodyParser.json());
 
 app.use(
   logger(t, {
-    stream: fs.createWriteStream('./logs.log', { flags: 'a' })
+    stream: fs.createWriteStream('./logs.txt', { flags: 'a' })
   })
 );
 app.use(logger('dev'));
