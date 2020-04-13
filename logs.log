@@ -1,0 +1,2 @@
+POST 		 /api/v1/on-covid-19/s 		 404 		 23.750 ms
+POST 		 /api/v1/on-covid-19/ 		 200 		 2.658 ms
