@@ -6,7 +6,7 @@
   "private": false,
   "scripts": {
     "lint": "eslint ./src/",
-    "start": "node .",
+    "start": "node index.js",
     "dev": "nodemon . "
   },
   "main": "index.js",
